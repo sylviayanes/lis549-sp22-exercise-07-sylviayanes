@@ -1,5 +1,20 @@
 /* body */ 
 
+body {
+    margin: .5rem;
+    background-color: #93b8d7;
+    color: white;
+}
+
+/* nav icons */
+
+.social-links {
+    color: white;
+    font-size: 2.5rem;
+    padding-right: .5em;
+}
+
+
 /* body - small */
 
 /* body - medium */
