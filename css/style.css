@@ -66,6 +66,7 @@ body {
     }
 }
 
+
 /* main */
 
 main {
@@ -83,26 +84,35 @@ main {
 
 /* main headings */
 
+/* main h1 */
+
 main h1 {
     font-size: 4rem;
 }
+
+/* main h1 - large screen */
+
+@media (min-width: 992px) {
+    main h1 {
+        font-size: 5rem;
+    }
+}
+
+/* main h2 */
 
 main h2 {
     margin-top: 2em;
     font-size: 2rem;
 }
 
-/* main headings - large screen */
+/* main h2 - large screen */
 
 @media (min-width: 992px) {
-    main h1 {
-        font-size: 5rem;
-    }
-
     main h2 {
         font-size: 3rem;
     }
 }
+
 
 /* footer */
 
