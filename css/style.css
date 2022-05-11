@@ -1,4 +1,4 @@
-/* body */ 
+/* body */
 
 body {
     margin: .5rem;
@@ -8,7 +8,7 @@ body {
 
 /* body - medium screen */
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
     html {
         height: 100%;
     }
@@ -20,29 +20,53 @@ body {
     }
 }
 
+/* body - large screen */
+
+@media (min-width: 992px) {
+    body {
+        background-image: url("/Users/sylviayanes/Desktop/web-dev/lis549-sp22-exercise-07-sylviayanes/img/splash-lg.jpg");
+    }
+}
+
+/* body - extra large screen */
+
+@media (min-width: 1200px) {
+    body {
+        background-image: url("/Users/sylviayanes/Desktop/web-dev/lis549-sp22-exercise-07-sylviayanes/img/splash-xl.jpg");
+    }
+}
+
+
 /* nav icons */
 
 .social-links {
     color: white;
-    font-size: 2.5rem; 
+    font-size: 2.5rem;
     padding-right: .5em;
-    display: none; 
+    display: none;
 }
 
 /* nav icons - small screen */
 
 @media (min-width: 598px) {
     .hamburger-menu {
-        display: none;  
+        display: none;
     }
+
     .social-links {
-        display: block; 
+        display: block;
     }
 }
 
+/* nav icons- large screen */
 
+@media (min-width: 992px) {
+    .social-links {
+        font-size: 1.5rem;
+    }
+}
 
-/* main */ 
+/* main */
 
 main {
     text-align: center;
@@ -51,9 +75,9 @@ main {
 }
 
 /* main - medium screen  */
-@media (min-width: 768px){
-    main{
-     text-shadow: 1px 1px #153c43;   
+@media (min-width: 768px) {
+    main {
+        text-shadow: 1px 1px #153c43;
     }
 }
 
@@ -68,14 +92,26 @@ main h2 {
     font-size: 2rem;
 }
 
+/* main headings - large screen */
+
+@media (min-width: 992px) {
+    main h1 {
+        font-size: 5rem;
+    }
+
+    main h2 {
+        font-size: 3rem;
+    }
+}
+
 /* footer */
 
-footer{
+footer {
     display: none;
 }
 
 /* footer - medium screen  */
-@media (min-width: 768px){
+@media (min-width: 768px) {
     footer {
         display: block;
         position: fixed;
@@ -83,9 +119,3 @@ footer{
         right: 0;
     }
 }
-
-/* body - small */
-
-/* body - medium */
-
-/* body - large */
