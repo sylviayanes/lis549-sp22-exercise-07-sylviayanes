@@ -6,6 +6,20 @@ body {
     color: white;
 }
 
+/* body - medium screen */
+
+@media (min-width: 768px){
+    html {
+        height: 100%;
+    }
+
+    body {
+        background-image: url("/Users/sylviayanes/Desktop/web-dev/lis549-sp22-exercise-07-sylviayanes/img/splash-md.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+}
+
 /* nav icons */
 
 .social-links {
@@ -36,6 +50,13 @@ main {
     margin-top: 23vh;
 }
 
+/* main - medium screen  */
+@media (min-width: 768px){
+    main{
+     text-shadow: 1px 1px #153c43;   
+    }
+}
+
 /* main headings */
 
 main h1 {
@@ -51,6 +72,16 @@ main h2 {
 
 footer{
     display: none;
+}
+
+/* footer - medium screen  */
+@media (min-width: 768px){
+    footer {
+        display: block;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+    }
 }
 
 /* body - small */
