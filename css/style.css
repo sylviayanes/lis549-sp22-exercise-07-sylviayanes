@@ -39,21 +39,25 @@ body {
 
 /* nav icons */
 
-.social-links {
+#social-links, #social-links a:visited {
     color: white;
     font-size: 2.5rem;
     padding-right: .5em;
     display: none;
 }
 
+#hamburger-menu a:visited {
+    color: white; 
+}
+
 /* nav icons - small screen */
 
 @media (min-width: 598px) {
-    .hamburger-menu {
+    #hamburger-menu {
         display: none;
     }
 
-    .social-links {
+    #social-links {
         display: block;
     }
 }
@@ -61,7 +65,7 @@ body {
 /* nav icons- large screen */
 
 @media (min-width: 992px) {
-    .social-links {
+    #social-links {
         font-size: 1.5rem;
     }
 }
