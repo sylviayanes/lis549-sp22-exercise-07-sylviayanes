@@ -10,11 +10,16 @@ body {
 
 .social-links {
     color: white;
-    width: 2.5rem; 
-    height: 2.5rem;
+    font-size: 10.5rem; 
     padding-right: .5em;
+    display: none; 
 }
 
+/* text */ 
+
+main {
+    text-align: center;
+}
 
 /* body - small */
 
