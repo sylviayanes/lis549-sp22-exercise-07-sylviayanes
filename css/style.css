@@ -39,11 +39,10 @@ body {
 
 /* nav icons */
 
-#social-links, #social-links a:visited {
+#social-links, #social-links a:link, #social-links a:visited {
     color: white;
     font-size: 2.5rem;
     padding-right: .5em;
-    text-decoration: none;
     display: none;
 }
 
