@@ -14,7 +14,7 @@ body {
     }
 
     body {
-        background-image: url("/Users/sylviayanes/Desktop/web-dev/lis549-sp22-exercise-07-sylviayanes/img/splash-md.jpg");
+        background-image: url("../img/splash-md.jpg");
         background-position: center;
         background-size: cover;
     }
@@ -24,7 +24,7 @@ body {
 
 @media (min-width: 992px) {
     body {
-        background-image: url("/Users/sylviayanes/Desktop/web-dev/lis549-sp22-exercise-07-sylviayanes/img/splash-lg.jpg");
+        background-image: url("../img/splash-lg.jpg");
     }
 }
 
@@ -32,7 +32,7 @@ body {
 
 @media (min-width: 1200px) {
     body {
-        background-image: url("/Users/sylviayanes/Desktop/web-dev/lis549-sp22-exercise-07-sylviayanes/img/splash-xl.jpg");
+        background-image: url("../img/splash-xl.jpg");
     }
 }
 
@@ -88,13 +88,13 @@ main {
 
 /* main headings */
 
-/* main h1 */
+/* h1 */
 
 main h1 {
     font-size: 4rem;
 }
 
-/* main h1 - large screen */
+/* h1 - large screen */
 
 @media (min-width: 992px) {
     main h1 {
@@ -102,14 +102,14 @@ main h1 {
     }
 }
 
-/* main h2 */
+/*  h2 */
 
 main h2 {
     margin-top: 2em;
     font-size: 2rem;
 }
 
-/* main h2 - large screen */
+/* h2 - large screen */
 
 @media (min-width: 992px) {
     main h2 {
